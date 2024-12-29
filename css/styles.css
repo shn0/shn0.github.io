@@ -160,13 +160,16 @@ footer {
 
 @media (max-width: 768px) {
   p {
-    font-size: 14px;
+    font-size: 14px; /* Adjust font size for tablets */
+    line-height: 1.5; /* Slightly tighter line spacing */
+    padding: 0 20px; /* Add horizontal padding to prevent edge hugging */
   }
 }
 
 @media (max-width: 480px) {
   p {
-    font-size: 12px;
-    line-height: 1.4;
+    font-size: 13px; /* Adjust font size for smaller mobile devices */
+    line-height: 1.4; /* Keep readability intact */
+    margin-bottom: 1.5em; /* Add more spacing below for clarity */
   }
 }
