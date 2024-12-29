@@ -156,6 +156,12 @@ footer {
   background-color: #141414;
 }
 
+p {
+  max-width: 600px; /* Restrict width for better readability */
+  margin: 0 auto; /* Center-align the text block */
+  padding: 0 10px; /* Add padding for better spacing */
+}
+
 
 @media (max-width: 768px) {
   p {
