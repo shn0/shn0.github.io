@@ -14,17 +14,19 @@ body {
 
 .first-name, .last-name {
   text-align: center;
-  font-size: 85px;
+  font-size: 100px;
   line-height: 1.2;
   font-weight: 300;
 }
 
 .job {
   font-weight: 300;
+  font-size: 3rem;
 }
 .intro {
   color: #a1a1a1;
   font-weight: 300;
+  font-size: 2rem;
 }
 
 
@@ -153,3 +155,6 @@ footer {
   padding: 130px;
   background-color: #141414;
 }
+
+
+@media 
