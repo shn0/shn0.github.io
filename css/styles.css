@@ -157,4 +157,15 @@ footer {
 }
 
 
-@media 
+@media (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}
