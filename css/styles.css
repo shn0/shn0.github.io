@@ -105,9 +105,11 @@ nav ul li a {
 
 
 #about {
-font-size: 1.3rem;
-padding: 130px;
+  max-width: 100%; /* Allow it to scale on smaller screens */
+  margin: 0 auto; /* Center the container */
+  padding: 0 15px; /* Add space on the sides */
 }
+
 #exp {
   padding: 130px;
 
@@ -158,18 +160,29 @@ footer {
 
 
 
+/* Ensure consistent font size and layout for all screen sizes */
 @media (max-width: 768px) {
   p {
-    font-size: 14px; /* Adjust font size for tablets */
-    line-height: 1.5; /* Slightly tighter line spacing */
-    padding: 0 20px; /* Add horizontal padding to prevent edge hugging */
+    font-size: 16px; /* Keep font size the same */
+    line-height: 1.6; /* Maintain same line spacing */
+    max-width: 800px; /* Ensure same width */
+    padding: 0 15px; /* Maintain padding on smaller screens */
   }
 }
 
 @media (max-width: 480px) {
   p {
-    font-size: 13px; /* Adjust font size for smaller mobile devices */
-    line-height: 1.4; /* Keep readability intact */
-    margin-bottom: 1.5em; /* Add more spacing below for clarity */
+    font-size: 16px; /* Same font size as laptop */
+    line-height: 1.6; /* Consistent spacing */
+    max-width: 800px; /* Prevent text from wrapping too narrowly */
+    padding: 0 10px; /* Slight padding for very small screens */
   }
+}
+
+p {
+  font-size: 20px; /* Same font size across devices */
+  line-height: 1.6; /* Maintain consistent spacing between lines */
+  max-width: 800px; /* Restrict paragraph width for readability */
+  margin: 0 auto 1.5em; /* Center-align the paragraph */
+  padding: 0 15px; /* Add slight padding to avoid edge hugging */
 }
