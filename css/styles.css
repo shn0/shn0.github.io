@@ -121,7 +121,7 @@ nav ul li a {
 .item {
   padding: 50px 0;
   border-radius: 10px;
-  border: solid pink;
+  border: solid #a1a1a1;
   background-color:#2e2e2e;
   transition: transform 0.3s ease, box shadow 0.3s ease;
 }
@@ -131,6 +131,10 @@ nav ul li a {
   box-shadow: 0 10px 20px rgba(0,0,0,0.3); 
 }
 
+.item h4 {
+  font-size: 2rem;
+  color:#006cff;
+}
 
 
 .items {
@@ -143,8 +147,18 @@ nav ul li a {
   padding: 130px;
 }
 
+#projects a {
+  text-decoration: none;
+  color: #006cff;
+}
+
+#projects a:hover {
+  color:#0041B3
+}
+
 .titles {
   margin-bottom: 20px;
+  font-size: 2rem;
 }
 
 
@@ -265,3 +279,4 @@ margin: 0 auto;
   color: #006cff;
   margin-right: 10px;
 }
+
