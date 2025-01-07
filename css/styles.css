@@ -167,6 +167,22 @@ nav ul li a {
   transform: translateY(20px);
   animation: slideUp 1s forwards;
 }
+/* Adjust Projects Section for Mobile Screens */
+@media (max-width: 768px) {
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Reduce gap between items */
+    padding: 0 15px; /* Add padding for smaller screens */
+  }
+
+  .item {
+    padding: 20px; /* Reduce padding for smaller items */
+    text-align: left; /* Align text for better readability */
+    width: 100%; /* Ensure items take full width */
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+}
 
 @keyframes slideUp {
   to {
